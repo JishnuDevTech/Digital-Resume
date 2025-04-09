@@ -1,0 +1,167 @@
+/* Top black header */
+.header {
+  background-color: #000;  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  color: #333;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+ background-color: #2c3e50;
+  color: #111;
+  color: white;
+  padding: 30px 20px;
+  width: 30%;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.sidebar .title {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.sidebar .section {
+  margin-bottom: 30px;
+}
+
+.sidebar .section h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sidebar .section ul {
+  list-style: none;
+}
+
+.sidebar .section ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  background-color: #fff;
+  padding: 30px 40px;
+  width: 70%;
+}
+
+.main-content .section {
+  margin-bottom: 30px;
+}
+
+.main-content h2 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.main-content p,
+.main-content li {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.main-content ul {
+  padding-left: 20px;
+}
+.edu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.edu-table th,
+.edu-table td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.edu-table th {
+  background-color: #f2f2f2;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skills-grid span {
+  background-color: #eee;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.section a {
+  transition: all 0.3s ease;
+  color: inherit; /* Keep it same as rest by default */
+}
+
+.section a:hover {
+  color: #007bff !important;  /* Force it to turn blue */
+  text-decoration: underline;
+}
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
